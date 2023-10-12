@@ -178,13 +178,14 @@ input[type="checkbox"] {
     height: 100%;
     display: block;
     background-color: rgba(37, 218, 197, 1);
-    border: 1px solid #000;
+/*     border: 1px solid #000; */
+    border-radius: 4px;
   }
   
 
   input[type="checkbox"]:checked::before {
     content: "\2713"; 
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1; 
     text-align: center;
     background-color: rgba(37, 218, 197, 1);
